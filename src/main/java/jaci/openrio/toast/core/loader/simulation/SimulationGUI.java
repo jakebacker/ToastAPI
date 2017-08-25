@@ -43,7 +43,7 @@ public class SimulationGUI extends JPanel {
         frame.add(panel);
         frame.pack();
         frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        frame.setVisible(false);
         frame.setResizable(false);
         frame.addWindowListener(new WindowAdapter() {
             @Override
